@@ -1,0 +1,4 @@
+#gradient-background {
+    background-color: black; /* For browsers that do not support gradients */
+    background-image: linear-gradient(black, red, black); /* Standard syntax (must be last) */
+}

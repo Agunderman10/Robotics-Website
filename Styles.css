@@ -307,3 +307,13 @@ width: 24px;
   color: black;
   transform: rotateY(180deg);
 }
+
+.centerDiv {
+  position: absolute;
+  margin: 0 auto;
+}
+
+.signaturePosition {
+  text-align: center;
+  bottom: 0;
+}

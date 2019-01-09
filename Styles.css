@@ -308,7 +308,3 @@ width: 24px;
   transform: rotateY(180deg);
 }
 
-.centerDiv {
-  position: absolute;
-  margin: 0 auto;
-}

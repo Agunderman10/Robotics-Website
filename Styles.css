@@ -312,3 +312,8 @@ width: 24px;
   position: absolute;
   margin: 0 auto;
 }
+
+.signaturePosition {
+  text-align: center;
+  bottom: 0;
+}

@@ -1,11 +1,9 @@
-/* Coded for both indexes */
 #gradient-background {
     background-color: black; /* For browsers that do not support gradients */
-    background-image: linear-gradient(black, red, black); /* Standard syntax (must be last) */
+    background-image: linear-gradient(black,red,black); /* Standard syntax (must be last) */
 }
 
 /* Coded for original index */
-
 ul {
     list-style-type: none;
     margin: 0;

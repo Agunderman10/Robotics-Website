@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<title> Children Of The Corn | Hillsboro Robotics</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="Styles.css">
+
+<body id="gradient-background">
+
+<!-- Icon Bar (Sidebar is hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center w3-hide-medium">
+  <!-- Hillsboro Indians logo in top left corner links to Hillsboro City Schools Website -->
+  <a href="http://www.hillsboro.k12.oh.us/"> <img src="Images/HillsboroIndian.png" alt="Hillsboro Indian Logo" 
+    style="width:100%; background-color: black;"></a>
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="index.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center" id="home gradient-background">
+    <h1 id="fade-in" class="w3-jumbo w3-hide-small" style="color:white;">Team 99158B</h1>
+    <h1 id="fade-in" class="w3-jumbo w3-hide-large w3-hide-medium" style="color:white;">Team 99158B</h1>
+    <h4 id="fade-in" style="color:white">"Children Of The Corn"</h4>
+    <img id="fade-in" src="Images/ChildrenOfTheCornTeamPic.jpg" alt="Children of the Corn Team Pic" class="w3-image w3-circle w3-border w3-hide-small" width="32%" height="37%;">
+    <img id="fade-in" src="Images/ChildrenOfTheCornTeamPic.jpg" alt="Children of the Corn Team Pic" class="w3-image w3-circle w3-border w3-hide-large w3-hide-medium" width="70%" height="70%;">
+
+    <!-- Scrolling mouse animation for medium and large screens -->
+    <div id="fade-in" class="mouse_scroll w3-hide-small" style="margin-top:1%; margin-bottom:-10%;">
+        <div class="mouse">
+            <div class="wheel"></div>
+        </div>
+        <div>
+            <span class="m_scroll_arrows unu"></span>
+            <span class="m_scroll_arrows doi"></span>
+            <span class="m_scroll_arrows trei"></span>
+        </div>
+    </div>
+    <!-- End Scrolling mouse animation for medium and large screens -->
+    <!-- Scrolling mouse animation for small screens -->
+    <div id="fade-in" class="mouse_scroll w3-hide-large w3-hide-medium" style="margin-top:7%; margin-bottom:-40%;">
+        <div class="mouse">
+            <div class="wheel"></div>
+        </div>
+        <div>
+            <span class="m_scroll_arrows unu"></span>
+            <span class="m_scroll_arrows doi"></span>
+            <span class="m_scroll_arrows trei"></span>
+        </div>
+    </div>
+    <!-- End Scrolling mouse animation for small screens -->
+  </header>
+
+  <!-- Team Record Section -->
+  <div class="w3-content w3-justify w3-padding-64" id="fade-in">
+    <h2 class="w3-text-light-grey">Team Record</h2>
+    <hr style="width:200px;" class="w3-opacity">
+    <h2 style="color:white; margin-left: 1%;">0-0-0</h2>
+    </div>
+  <!-- End Team Record Section -->
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 id="fade-in" class="w3-text-light-grey">About 99158B</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p id="fade-in" style="color:white;">We are a group of like minded individuals with a goal to gain and share knowledge about robots and 
+    how they work. Our Robotics program is very new, having started in 2015, but we have already participated in multiple VEX 
+    State and World competitions. 
+    </p>
+  <!-- End About Section -->
+  </div>
+
+<!-- Meet The Team section -->
+<div class="w3-content w3-justify w3-padding-64">
+    <h2 class="w3-text-light-grey">Meet The Team</h2>
+    <hr style="width:200px;" class="w3-opacity">
+    <h5 style="color:white">NOTE: Hover your mouse over a photo to learn more about a student.</h5>
+</div>
+<!-- End Meet the team section -->
+
+
+<!-- Begin Team Individual Pics for large screens -->
+<div class="w3-hide-small w3-hide-medium" style="margin: 0% 0% 0% 16%;">
+    <div>
+        <div class="container" style="padding:2%;">
+            <div class="col-lg-4">
+                <div class="flip-card card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="Images/WillPic.jpg" alt="Will" style="width:100%; height: 100%;">
+                        </div>
+                        <div class="flip-card-back card">
+                            <h1>Will</h1>
+                            <p>Hello! My name is Will. I am Team 99158B's builder and I am the 
+                                back-up programmer as well. I also enjoy and take part in band, 
+                                soccer, and baseball.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card card" style="margin-top:15%;">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="Images/NickPic.jpg" alt="Nick" style="width:100%; height: 100%;">
+                        </div>
+                        <div class="flip-card-back card">
+                            <h1>Nick</h1>
+                            <p>Hello! My name is Nick. I am a builder for 99158B and I enjoy acting,
+                                soccer, basketball, and baseball.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6" style="margin-left:12%;">
+                <div class="flip-card card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="Images/EvanPic.jpg" alt="Evan" style="width:100%; height: 100%;">
+                        </div>
+                        <div class="flip-card-back card">
+                            <h1>Evan</h1>
+                            <p>Hello! My name is Evan. I am a builder for 99158B and I partake in
+                                NJHS, 4H, baseball, and soccer.
+                                <br><br><br><br><br><br><br>
+                                "May your team be great and your awards be greater"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card card" style="margin-top:10%;">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="Images/AbbyPic.jpg" alt="Abby" style="width: 100%; height: 100%;">
+                        </div>
+                        <div class="flip-card-back card">
+                            <h1>Abby</h1>
+                            <p>Hello! My name is Abby. I am the programmer and notebooker for 99158B
+                                and I love to cheer and I participate in NJHS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card card" style="margin-top:2%; margin-left:29%;">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="Images/KyahPic.jpg" alt="Kyah" style="width:100%; height: 100%;">
+                </div>
+                <div class="flip-card-back card">
+                    <h1>Kyah</h1>
+                    <p>Hello! My name is Kyah. I build and sketch for 99158B and I also 
+                        participate in cheer, 4H, NJHS, Girl Scouts and band.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Team Individual Pics for large screens -->  
+
+<!-- Begin Team Individual Pics for medium screens -->
+<div class="w3-hide-large w3-hide-small" style="margin-left:28%;">
+    <div>
+            <div class="flip-card card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="Images/PrototypeIntake.jpg" alt="Will" style="width:100%; height: 100%;">
+                    </div>
+                    <div class="flip-card-back card">
+                        <h1>Will</h1>
+                        <p>Hello! My name is Will. I am Team 99158B's builder and I am the 
+                            back-up programmer as well. I also enjoy and take part in band, 
+                            soccer, and baseball.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="Images/PrototypeIntake.jpg" alt="Nick" style="width:100%; height: 100%;">
+                    </div>
+                    <div class="flip-card-back card">
+                        <h1>Nick</h1>
+                        <p>Hello! My name is Nick. I am a builder for 99158B and I enjoy acting,
+                            soccer, basketball, and baseball.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="Images/PrototypeIntake.jpg" alt="Evan" style="width:100%; height: 100%;">
+                    </div>
+                    <div class="flip-card-back card">
+                        <h1>Evan</h1>
+                        <p>Hello! My name is Evan. I am a builder for 99158B and I partake in
+                            NJHS, 4H, baseball, and soccer.
+                            <br><br><br><br><br><br><br>
+                            "May your team be great and your awards be greater"
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="Images/AbbyPic.jpg" alt="Abby" style="width: 100%; height: 100%;">
+                    </div>
+                    <div class="flip-card-back card">
+                        <h1>Abby</h1>
+                        <p>Hello! My name is Abby. I am the programmer and notebooker for 99158B
+                            and I love to cheer and I participate in NJHS.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="flip-card card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="Images/KyahPic.jpg" alt="Kyah" style="width:100%; height: 100%;">
+                </div>
+                <div class="flip-card-back card">
+                    <h1>Kyah</h1>
+                    <p>Hello! My name is Kyah. I build and sketch for 99158B and I also 
+                        participate in cheer, 4H, NJHS, Girl Scouts and band.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Team Individual Pics for medium screens-->
+
+<!-- Begin Team Individual Pics for small screens -->
+<div class="w3-hide-large w3-hide-medium">
+    <div>
+            <div class="flip-card card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="Images/PrototypeIntake.jpg" alt="Will" style="width:100%; height: 100%;">
+                    </div>
+                    <div class="flip-card-back card">
+                        <h1>Will</h1>
+                        <p>Hello! My name is Will. I am Team 99158B's builder and I am the 
+                            back-up programmer as well. I also enjoy and take part in band, 
+                            soccer, and baseball.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="Images/PrototypeIntake.jpg" alt="Nick" style="width:100%; height: 100%;">
+                    </div>
+                    <div class="flip-card-back card">
+                        <h1>Nick</h1>
+                        <p>Hello! My name is Nick. I am a builder for 99158B and I enjoy acting,
+                            soccer, basketball, and baseball.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="Images/PrototypeIntake.jpg" alt="Evan" style="width:100%; height: 100%;">
+                    </div>
+                    <div class="flip-card-back card">
+                        <h1>Evan</h1>
+                        <p>Hello! My name is Evan. I am a builder for 99158B and I partake in
+                            NJHS, 4H, baseball, and soccer.
+                            <br><br><br><br><br><br><br>
+                            "May your team be great and your awards be greater"
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="Images/AbbyPic.jpg" alt="Abby" style="width: 100%; height: 100%;">
+                    </div>
+                    <div class="flip-card-back card">
+                        <h1>Abby</h1>
+                        <p>Hello! My name is Abby. I am the programmer and notebooker for 99158B
+                            and I love to cheer and I participate in NJHS.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="flip-card card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="Images/KyahPic.jpg" alt="Kyah" style="width:100%; height: 100%;">
+                </div>
+                <div class="flip-card-back card">
+                    <h1>Kyah</h1>
+                    <p>Hello! My name is Kyah. I build and sketch for 99158B and I also 
+                        participate in cheer, 4H, NJHS, Girl Scouts and band.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Team Individual Pics for small screens-->
+
+<!-- END PAGE CONTENT -->
+</div>
+
+<!-- Signature -->
+<div>
+    <h5 style="color:white; text-align: center; margin-bottom: -3%;">Website created 
+        by Andrew Gunderman. Have questions? Contact me at 
+        <a style="color:white;" href="mailto:agunderman10@gmail.com"> 
+            Agunderman10@gmail.com </a> or visit my website <a style="color:white;" href="https://agunderman10.github.io">here.</a></h5>
+</div>
+<!-- End Signature -->
+
+</body>
+</html>

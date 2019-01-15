@@ -303,5 +303,4 @@ width: 24px;
   background-color: #eeeeee;
   color: black;
   transform: rotateY(180deg);
-  -webkit-transition: -webkit-transform 1s;
 }
